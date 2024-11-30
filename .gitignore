@@ -1,0 +1,23 @@
+# Ignore application cache and logs
+/application/cache/*
+/application/logs/*
+
+# Ignore Composer dependencies (if not included)
+/vendor/
+
+# Ignore environment file
+*.env
+
+# Ignore temporary files and system-specific files
+*.bak
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore Node modules (if present)
+/node_modules/
